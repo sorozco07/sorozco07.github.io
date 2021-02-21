@@ -21,7 +21,9 @@ p {
 .title {
     border-bottom: 1px solid black;
     border-left: 1px solid black;
+    width: 100px;
     padding: 5px;
+    text-align: center;
     position: absolute;
     right: 0;
     font-size: 125%;
