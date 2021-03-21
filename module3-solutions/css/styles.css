@@ -1,0 +1,131 @@
+body {
+    font-family: 'Oxygen', sans-serif;
+    background-color: #DCDCDC;
+}
+body a:hover {
+    text-decoration: none;
+}
+
+/* HEADER */
+#header-nav { /* entire header */
+    background-color: #5F9EA0;
+    position: relative;
+}
+
+#nav-wrapper {
+    border-bottom: solid 1px #61122f;
+}
+
+.navbar-header {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#logo-img {
+    float: left;
+    margin-right: 10px;
+    max-width: 100px;
+    max-height: 90px;
+}
+
+#header-nav h1 { /* Our Food, LLC */
+    color: #DCDCDC;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #222;
+    padding-top: 20px;
+    font-size: calc(100% + 1vw + 1vh);
+}
+
+/* END OF HEADER */
+
+
+/* Navigation */
+#nav-list {
+    margin-top: 10px;
+}
+
+#header-nav button {
+    position: absolute;
+    right: 0;
+    /*bottom: 0;*/
+    clear: both;
+    margin-top: -5px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    background-color: #5F9EA0;
+    border: solid 1px #61122f;
+    border-radius: 4px;
+    width: 40px;
+}
+
+#nav-list li {
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: #DCDCDC;
+}
+
+#nav-list a:hover {
+    background: #3d6a6ca3;
+}
+
+.menu-icon {
+    color:#61122f;
+}
+
+/* END OF NAVIGATION */
+
+/****** Main Content *******/
+
+/* WE DELIVER */
+#call-box {
+    margin-top: 15px;
+    border: solid 1px #61122f;
+    border-radius: 4px;
+    background-color: #5F9EA0;
+    color: #DCDCDC;
+}
+
+#call-btn a {
+    color: #DCDCDC;
+    font-size: 1.1em;
+}
+
+#call-btn {
+    margin-top: 10px;
+}
+
+#xs-deliver {
+    font-style: italic;
+    text-transform: uppercase;
+}
+/* END OF WE DELIVER */
+
+
+#our-food {
+    margin: 30px auto 20px;
+}
+
+/* MENU */
+#chicken, #beef, #sushi  {
+    background-color: #61122f;
+    color: #DCDCDC;
+    margin-bottom: 35px;
+    height: 1000px;
+    border-radius: 4px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.menu-title {
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+
+
+
